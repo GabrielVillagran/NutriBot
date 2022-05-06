@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./background.jpg);
+    background-repeat: repeat;
+}
+
+.contenedorPrincipal {
+    background-color: rgb(125, 182, 200);
+    position: relative;
+    opacity: 0.9;
+    left: 300px;
+    width: 1000px;
+    height: 730px;
+}
+
+.informacionPlatillo {
+    left: 300px;
+    top: 20px;
+    width: 500px;
+    position: relative;
+}

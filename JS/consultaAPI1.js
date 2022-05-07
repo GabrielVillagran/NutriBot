@@ -1,9 +1,12 @@
+// Query selectors
 const bttnMeal = document.getElementById('get_meal');
 const meal_container = document.getElementById('meal');
 const mealName = document.querySelector('[mealName]')
-    // evento que funcionara como event listener y hacer la consulta a la API
-    // para hacer uso de la api haemos uso de las promesas por medio del metodo fetch
-    //  programacion asincrona
+const mealArea = document.querySelector('[mealArea]')
+
+// evento que funcionara como event listener y hacer la consulta a la API
+// para hacer uso de la api haemos uso de las promesas por medio del metodo fetch
+//  programacion asincrona
 bttnMeal.addEventListener('click', () => {
     fetch('https://www.themealdb.com/api/json/v1/1/random.php')
         .then(res => res.json())
@@ -31,12 +34,13 @@ const createMeal = meal => {
         break;
     }
 }
+// Modificacion de datos
+// Nombre de platillo
 console.log(meal.strMeal)
 mealName.textContent = meal.strMeal;
-const modifyData = meal =>{
-    console.log(meal.strMeal)
-    mealName.textContent = meal.strMeal;
-}
+// Area o pais del platillo
+console.log(meal.strArea)
+mealArea.textContent = meal.strArea;
 // const newInnerHTML = `
 // <div class="row">
 // <div class="columns five">

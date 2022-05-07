@@ -43,7 +43,16 @@ body {
 .mealName {
     position: relative;
     left: 20px;
-    top: 150px;
+    top: 170px;
+    font-size: 17pt;
+    width: 200px;
+    height: 40px;
+}
+
+.mealArea {
+    position: relative;
+    left: 20px;
+    top: 190px;
     font-size: 17pt;
     width: 200px;
     height: 40px;

@@ -7,18 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriBot</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
     <div class="contenedorPrincipal">
         <!-- Contenedor que muestra la informacion  -->
-        <div class="informacionPlatillo">
-            <h1>Prueba de acceso a las API</h1>
-            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
-            <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
-            <button onclick="fetchFood()">Buscar Comida aleatoria</button>
-        </div>
+        <!-- <div class="informacionPlatillo"> -->
+        <!-- <h1>Prueba de acceso a las API</h1> -->
+        <!-- imagen de referencia -->
+        <!-- <div class="foodImg"> -->
+        <!-- <img src="./img/foodTemplate.png" alt="food" id="foodImg" width="300px"> -->
+        <!-- </div> -->
+        <!-- <div id="display"></div> -->
+        <!-- <input type="text" placeholder="Comida a buscar" id="foodName" name="foodName"> -->
+        <!-- Busqueda de comida -->
+        <!-- <button onclick="fetchFood()">Buscar Comida aleatoria</button> -->
+        <!-- </div> -->
+        <!-- a -->
+        <!-- <div class="container"> -->
+        <!-- <div class="row text-center"> -->
+        <div class="headerTxt">Presiona el boton y obten la receta ideal</div>
+        <div class="descriptionTxt">Obtendras una comida aleatoria</div>
+        <!-- boton que servira para hacer la consulta a la API -->
+        <button class="buttonGetFood" id="get_meal">Get Hungry!!! 🤖​🍔</button>
+        <!-- por medio de query selector obtendremos acceso a los datos del API -->
+        <!-- Nombre -->
+        <div mealName class="mealName">Nombre del platillo</div>
+        <!-- Pais o Area -->
+        <div mealArea class="mealArea">Pais de origen</div>
+        <!--  -->
+        <!-- </div> -->
+        <!-- <div id="meal" class="row meal"></div> -->
+        <!-- </div> -->
     </div>
 
 </body>

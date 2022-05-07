@@ -3,6 +3,10 @@ const bttnMeal = document.getElementById('get_meal');
 const meal_container = document.getElementById('meal');
 const mealName = document.querySelector('[mealName]')
 const mealArea = document.querySelector('[mealArea]')
+const mealCategory = document.querySelector('[mealCategory]')
+const mealTags = document.querySelector('[mealTags]')
+const mealVideo = document.querySelector('[mealVideo]')
+
 
 // evento que funcionara como event listener y hacer la consulta a la API
 // para hacer uso de la api haemos uso de las promesas por medio del metodo fetch
@@ -41,6 +45,16 @@ mealName.textContent = meal.strMeal;
 // Area o pais del platillo
 console.log(meal.strArea)
 mealArea.textContent = meal.strArea;
+// category del platillo
+console.log(meal.strCategory)
+mealCategory.textContent = meal.strCategory;
+// Tags del platillo
+console.log(meal.strTags)
+mealTags.textContent = meal.strTags;
+// youtube o video del platillo
+console.log(meal.strYoutube)
+mealVideo.textContent = meal.strYoutube;
+
 // const newInnerHTML = `
 // <div class="row">
 // <div class="columns five">

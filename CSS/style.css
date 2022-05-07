@@ -43,7 +43,7 @@ body {
 .mealName {
     position: relative;
     left: 20px;
-    top: 170px;
+    top: 150px;
     font-size: 17pt;
     width: 200px;
     height: 40px;
@@ -53,6 +53,33 @@ body {
     position: relative;
     left: 20px;
     top: 190px;
+    font-size: 17pt;
+    width: 200px;
+    height: 40px;
+}
+
+.mealCategory {
+    position: relative;
+    left: 20px;
+    top: 230px;
+    font-size: 17pt;
+    width: 200px;
+    height: 40px;
+}
+
+.mealTags {
+    position: relative;
+    left: 20px;
+    top: 270px;
+    font-size: 17pt;
+    width: 200px;
+    height: 40px;
+}
+
+.mealVideo {
+    position: relative;
+    left: 20px;
+    top: 300px;
     font-size: 17pt;
     width: 200px;
     height: 40px;

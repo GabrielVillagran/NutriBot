@@ -5,6 +5,8 @@ Se hara uso de 2 API:
 - https://developer.edamam.com/edamam-nutrition-api-demo
 - https://www.themealdb.com/meal/52807 
 
-Gabriel Aldair Villagran Saucedo
-267572
-Universidad Autonoma de San Luis Potosi
+### Gabriel Aldair Villagran Saucedo
+
+### 267572
+
+### Universidad Autonoma de San Luis Potosi

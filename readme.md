@@ -1,4 +1,5 @@
 # Nutribot
+---
 Plataforma web que ayuda en la creacion de dietas y muestra informacion nutrimental sobre platillos proporcionados por el usuario o bien los que son incluidos de la misma plataforma.
 
 Se hara uso de 2 API:
@@ -10,3 +11,4 @@ Se hara uso de 2 API:
 ### 267572
 
 ### Universidad Autonoma de San Luis Potosi
+---

@@ -18,19 +18,41 @@
         <button class="buttonGetFood" id="get_meal">Get Hungry!!! 🤖​🍔</button>
         <!-- por medio de query selector obtendremos acceso a los datos del API -->
         <!-- Nombre -->
-        <div mealName class="mealName">Nombre del platillo</div>
+        <div class="nombreComida">
+            Nombre de platillo:
+            <div mealName class="mealName"></div>
+        </div>
         <!-- Pais o Area -->
-        <div mealArea class="mealArea">Pais de origen</div>
+        <div class="regionComida">
+            Región del platillo:
+            <div mealArea class="mealArea"></div>
+        </div>
         <!-- category -->
-        <div mealCategory class="mealCategory">Categoria</div>
+        <div class="categoriaComida">
+            Categoria de platillo:
+            <div mealCategory class="mealCategory"></div>
+        </div>
         <!-- tags -->
-        <div mealTags class="mealTags">Tags relacionados</div>
+        <div class="tagsComida">
+            Tags relacionados:
+            <div mealTags class="mealTags"></div>
+        </div>
         <!-- youtube video -->
-        <div mealVideo class="mealVideo">Video del platillo</div>
+        <div class="videoComida">
+            Video tutorial:
+            <div mealVideo class="mealVideo"></div>
+        </div>
         <!-- imagen -->
         <div class="mealImg">
-            <img src="https://cdn-icons-png.flaticon.com/512/1450/1450147.png" alt="imagen" id="mealImg" width="300px" height="300px">
+            <img src="https://cdn-icons-png.flaticon.com/512/1450/1450147.png" alt="imagen" id="mealImg" width="250px" height="250px">
         </div>
+    </div>
+    <!-- informacion nutrimental y su variacion de recetas -->
+    <div class="contenedorInfo">
+        <div class="titleSection">
+            Variaciones de la receta
+        </div>
+        <div class="recipes"></div>
     </div>
 
 </body>

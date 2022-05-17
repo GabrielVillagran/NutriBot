@@ -16,6 +16,18 @@ body {
     border-width: 3px;
 }
 
+.contenedorInfo {
+    background-color: rgb(111, 126, 131);
+    position: relative;
+    opacity: 0.9;
+    left: 300px;
+    width: 1000px;
+    height: 730px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+
 .headerTxt {
     position: relative;
     left: 350px;
@@ -47,49 +59,114 @@ body {
 
 /* Caracteristicas de plato */
 
-.mealName {
+
+/* nombre */
+
+.nombreComida {
     position: relative;
     left: 20px;
     top: 150px;
+    width: 500px;
     font-size: 17pt;
-    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mealName {
+    position: relative;
+    left: 230px;
+    top: -25px;
+    font-size: 17pt;
+    width: 240px;
     height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* region */
+
+.regionComida {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 400px;
+    font-size: 17pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mealArea {
     position: relative;
-    left: 20px;
-    top: 190px;
+    left: 230px;
+    top: -25px;
     font-size: 17pt;
-    width: 200px;
+    width: 240px;
     height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* categoria */
+
+.categoriaComida {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 400px;
+    font-size: 17pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mealCategory {
     position: relative;
-    left: 20px;
-    top: 230px;
+    left: 250px;
+    top: -25px;
     font-size: 17pt;
-    width: 200px;
+    width: 240px;
     height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* tags de la comida */
+
+.tagsComida {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 400px;
+    font-size: 17pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mealTags {
     position: relative;
-    left: 20px;
-    top: 270px;
+    left: 220px;
+    top: -25px;
     font-size: 17pt;
-    width: 200px;
+    width: 240px;
     height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* video de comida */
+
+.videoComida {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 620px;
+    font-size: 17pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mealVideo {
     position: relative;
-    left: 20px;
-    top: 300px;
+    left: 180px;
+    top: -25px;
     font-size: 17pt;
-    width: 200px;
-    height: 40px;
+    width: 600px;
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -97,6 +174,61 @@ body {
 
 .mealImg {
     position: absolute;
-    left: 500px;
-    top: 300px;
+    left: 650px;
+    top: 240px;
+    border-radius: 40%;
+}
+
+.titleSection {
+    font-size: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f4f4f4
+}
+
+
+/* informacion nutrimental */
+
+@import url('https://fonts.googleapis.com/css?family=Livvic:100,300,400,500,700&display=swap');
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 10px 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-btn {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #005c69;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-gap: 30px;
+    margin-top: 32px;
+}
+
+.recipe {
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
 }

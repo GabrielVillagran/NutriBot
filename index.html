@@ -11,53 +11,79 @@
 </head>
 
 <body>
-    <div class="contenedorPrincipal">
-        <div class="headerTxt">Presiona el boton y obten la receta ideal</div>
-        <div class="descriptionTxt">Obtendras una comida aleatoria</div>
-        <!-- boton que servira para hacer la consulta a la API -->
-        <button class="buttonGetFood" id="get_meal">Get Hungry!!! 🤖​🍔</button>
-        <!-- por medio de query selector obtendremos acceso a los datos del API -->
-        <!-- Nombre -->
-        <div class="nombreComida">
-            Nombre de platillo:
-            <div mealName class="mealName"></div>
-        </div>
-        <!-- Pais o Area -->
-        <div class="regionComida">
-            Región del platillo:
-            <div mealArea class="mealArea"></div>
-        </div>
-        <!-- category -->
-        <div class="categoriaComida">
-            Categoria de platillo:
-            <div mealCategory class="mealCategory"></div>
-        </div>
-        <!-- tags -->
-        <div class="tagsComida">
-            Tags relacionados:
-            <div mealTags class="mealTags"></div>
-        </div>
-        <!-- youtube video -->
-        <div class="videoComida">
-            Video tutorial:
-            <div mealVideo class="mealVideo"></div>
-        </div>
-        <!-- imagen -->
-        <div class="mealImg">
-            <img src="https://cdn-icons-png.flaticon.com/512/1450/1450147.png" alt="imagen" id="mealImg" width="250px" height="250px">
-        </div>
-    </div>
-    <!-- informacion nutrimental y su variacion de recetas -->
-    <div class="contenedorInfo">
-        <div class="titleSection">
-            Variaciones de la receta
-        </div>
-        <div class="recipes"></div>
-    </div>
+    <!-- contenedor principal -->
+    <div class="container">
+        <!-- Encabezado de pagina -->
+        <div class="encabezadoPag">
+            <!-- logo -->
+            <div class="nutribot">
+                <img src="./img/logo.png" alt="imagen" width="200px" height="200px">
+            </div>
+            <!-- botones de la pagina -->
+            <div class="mainMenu">
+                <button class="bttn menu">Quienes somos</button>
+                <button class="bttn menu">Buscar Receta</button>
+                <button class="bttn menu">Iniciar Sesion</button>
+                <button class="bttn menu">Crear Cuenta</button>
 
+            </div>
+        </div>
+        <!-- contenedor de recetas aleatorias -->
+        <div class="contenedorRecetas">
+            <div class="headerTxt">
+                Bienvenido a nutribot, la aplicación de comida nutritivas que cambiara tu vida, prueba un menu distinto y nutritivo con solo un clic!!
+            </div>
+            <div class="descriptionTxt">
+                Puedes probar nuestra aplicación sin necesidad de registrarte, da clic al boton para generar una receta proporcionada por uno de nuestros profesionales</div>
+            <!-- boton que servira para hacer la consulta a la API -->
+            <button class="buttonGetFood" id="get_meal">Obten tu receta ideal 🤖​🍔</button>
+            <!-- por medio de query selector obtendremos acceso a los datos del API -->
+            <!-- Nombre -->
+            <div class="nombreComida">
+                Nombre de platillo:
+                <div mealName class="mealName"></div>
+            </div>
+            <!-- Pais o Area -->
+            <div class="regionComida">
+                Región del platillo:
+                <div mealArea class="mealArea"></div>
+            </div>
+            <!-- category -->
+            <div class="categoriaComida">
+                Categoria de platillo:
+                <div mealCategory class="mealCategory"></div>
+            </div>
+            <!-- tags -->
+            <div class="tagsComida">
+                Tags relacionados:
+                <div mealTags class="mealTags"></div>
+            </div>
+            <!-- youtube video -->
+            <div class="videoComida">
+                Video tutorial:
+                <div mealVideo class="mealVideo"></div>
+            </div>
+            <!-- imagen -->
+            <div class="mealImg">
+                <img src="https://cdn-icons-png.flaticon.com/512/1450/1450147.png" alt="imagen" id="mealImg" width="400px" height="400px">
+            </div>
+        </div>
+        <!-- informacion nutrimental y su variacion de recetas -->
+        <div class="contenedorInfo">
+            <div class="titleSection">
+                ¿Quieres probar algo diferente, pero sin perder tu receta original, echa un vistazo a las diferentes versiones de la receta?
+            </div>
+            <div class="recipes"></div>
+        </div>
+    </div>
 </body>
 <footer>
     <script src="./JS/consultaAPI1.js"></script>
 </footer>
 
 </html>
+
+<!-- referencias
+Logo creado en= https://turbologo.com/designs/11819284
+https://htmlcolors.com/rgba-color
+ -->

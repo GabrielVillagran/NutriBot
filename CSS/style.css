@@ -1,59 +1,114 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(/img/background.jpg);
+    background-color: rgb(243, 237, 237);
+    /* background-image: url("../img/background.jpg"); */
     background-repeat: repeat;
+    opacity: 0.9;
 }
 
-.contenedorPrincipal {
-    background-color: rgb(202, 236, 247);
+
+/* encabezado de pagina estilo */
+
+.encabezadoPag {
+    width: 1514px;
+    height: 200px;
+    background-color: rgb(243, 237, 237);
+}
+
+.nutribot {
+    position: absolute;
+    left: 150px;
+}
+
+
+/* estilo de botones del encabezado */
+
+button {
+    margin: 20px;
+}
+
+.bttn {
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
     position: relative;
-    opacity: 0.9;
-    left: 300px;
-    width: 1000px;
+    left: 450px;
+    top: 40px;
+    display: inline-block;
+    outline: none;
+}
+
+.menu {
+    background: linear-gradient(0deg, rgba(24, 103, 75, 1) 0%, rgba(24, 207, 102, 1) 100%);
+    border: none;
+}
+
+.menu:hover {
+    background: linear-gradient(0deg, rgba(24, 103, 75, 1) 0%, rgba(24, 176, 75, 1) 100%);
+    border: none;
+}
+
+
+/* Contenedor generador de recetas aleatorias */
+
+.contenedorRecetas {
+    background-color: rgb(243, 237, 237);
+    position: relative;
+    width: 1514px;
     height: 730px;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 3px;
 }
 
-.contenedorInfo {
-    background-color: rgb(111, 126, 131);
-    position: relative;
-    opacity: 0.9;
-    left: 300px;
-    width: 1000px;
-    height: 730px;
-    border-style: solid;
-    border-width: 3px;
-    text-align: center;
-}
+
+/* texto de bienvenida */
 
 .headerTxt {
     position: relative;
-    left: 350px;
-    top: 90px;
-    width: 350px;
-    font-size: 15pt;
+    left: 340px;
+    top: 10px;
+    width: 900px;
+    font-size: 20pt;
     font-weight: bold;
+    text-align: center;
+    /* border-style: solid; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+/* explicacion de la app */
 
 .descriptionTxt {
     position: relative;
-    left: 380px;
-    top: 99px;
-    width: 290px;
+    left: 100px;
+    top: 50px;
+    width: 1400px;
     font-size: 15pt;
     font-weight: bold;
+    /* border-style: solid; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+/* boton para obtener comida */
 
 .buttonGetFood {
     position: relative;
-    left: 400px;
-    top: 130px;
-    width: 200px;
+    left: 600px;
+    top: 90px;
+    width: 300px;
     height: 40px;
     border-style: solid;
     border-width: 3px;
+    font-size: 15pt;
 }
 
 
@@ -174,15 +229,31 @@ body {
 
 .mealImg {
     position: absolute;
-    left: 650px;
-    top: 240px;
+    left: 960px;
+    top: 250px;
     border-radius: 40%;
 }
 
+
+/* contenedor dinamico y responsivo que muestra informacion de recetas */
+
+.contenedorInfo {
+    background-color: rgb(243, 237, 237);
+    position: relative;
+    /* width: 1514px; */
+    /* border-style: solid; */
+    border-width: 3px;
+    text-align: center;
+}
+
+
+/* Seccion que muestra la variedad de recetas */
+
 .titleSection {
-    font-size: 30pt;
+    font-size: 25pt;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f4f4f4
+    color: #171717
 }
 
 

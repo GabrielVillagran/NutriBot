@@ -292,7 +292,7 @@ button {
 /* pie de pagina */
 
 .piePag {
-    border-style: solid;
+    /* border-style: solid; */
     width: 1514px;
     height: 200px;
     background-color: rgb(102, 165, 112);

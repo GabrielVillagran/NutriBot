@@ -266,24 +266,8 @@ button {
     padding: 10px 0;
 }
 
-.search-bar {
-    width: 50%;
-    padding: 10px 25px;
-    outline: none;
-    font-size: 16px;
-}
 
-.search-btn {
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: #005c69;
-    color: #f4f4f4;
-    font-size: 16px;
-    font-weight: 300;
-}
+/* recetas extras */
 
 .recipes {
     display: grid;
@@ -302,4 +286,45 @@ button {
     width: 200px;
     height: 200px;
     border-radius: 40%;
+}
+
+
+/* pie de pagina */
+
+.piePag {
+    border-style: solid;
+    width: 1514px;
+    height: 200px;
+    background-color: rgb(102, 165, 112);
+}
+
+.creador {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    width: 320px;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffffd3;
+}
+
+.asignatura {
+    position: relative;
+    top: -10px;
+    left: 650px;
+    width: 300px;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffffd3;
+}
+
+.university {
+    position: relative;
+    top: -70px;
+    left: 1200px;
+    width: 300px;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffffd3;
 }
